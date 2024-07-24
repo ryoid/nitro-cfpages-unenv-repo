@@ -1,3 +1,6 @@
+import { Readable } from "readable-stream"
+
 export default eventHandler((event) => {
-  return "Start by editing <code>server/routes/index.ts</code>.";
-});
+  const stream = Readable.from(["hello", "world"])
+  return stream
+})

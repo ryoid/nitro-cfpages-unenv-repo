@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "nitropack": "latest"
+  },
+  "dependencies": {
+    "readable-stream": "4.4.0"
   }
 }
